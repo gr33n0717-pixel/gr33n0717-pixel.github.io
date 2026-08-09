@@ -120,18 +120,18 @@
             <form id="contact__form" onsubmit="contact(event)">
                 <div class="form__item">
                     <label class="form__item--label" >Name</label>
-                    <input type="text" class="input" name="user_name" ></input>
+                    <input type="text" class="input" name="user_name" required></input>
                 </div>
                 <div class="form__item">
                     <label class="form__item--label" >Email</label>
-                    <input type="email" class="input" name="user_email" ></input>
+                    <input type="email" class="input" name="user_email" required></input>
                 </div>
                 <div class="form__item">
                     <label class="form__item--label" >Message</label>
-                    <textarea type="text" class="input" name="message" ></textarea>
+                    <textarea type="text" class="input" name="message" required ></textarea>
                 </div>
                 <button id="contact__submit" class="form__submit">
-                    Send
+                     Send messaage
                 </button>
             </form>
             <div class="modal__overlay modal__overlay--loading">
@@ -241,7 +241,7 @@
             <img class="footer__logo--img" src="assets/Mylogo.png" alt="">
         </figure>
         <div class="footer__social--list">
-            <a href="https://github.com/gr33n0717-pixel" class="footer__social--link
+            <a href="https://github.com/gr33n0717-pixel" target="_blank" class="footer__social--link
             link__hover-effect
             link__hover-effect--white">
             Github
